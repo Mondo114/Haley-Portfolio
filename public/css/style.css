@@ -70,10 +70,6 @@ nav {
     justify-content: center;
 }
 
-.banner-title:hover {
-    cursor: pointer;
-}
-
 .divider {
     background: linear-gradient(rgb(202, 168, 122), rgb(160, 115, 87), rgb(74, 60, 51));
     height: 60px;

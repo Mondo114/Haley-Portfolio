@@ -33,10 +33,6 @@ $(document).ready(function () {
     // };
 
     // Navbar Scrolling
-    $(".banner-title").on('click', function () {
-        window.location = "https://www.antlersandacorns.com/";
-    });
-
     $("#home-nav").on('click', function () {
         window.location = "https://www.antlersandacorns.com/";
     });
