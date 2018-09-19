@@ -32,7 +32,6 @@ nav {
 .nav-link {
     margin-left: 30px;
     margin-right: 30px;
-    color: black;
     font-family: 'Oregano', cursive;
     font-size: 24px;
     color: rgb(243, 221, 174);
@@ -64,7 +63,7 @@ nav {
     font-family: 'Oregano', cursive;
     font-style: italic;
     font-size: 110px;
-    color: black;
+    color: rgb(60, 47, 38);
     text-shadow: 2px 2px rgb(243, 221, 174);
     display: flex;
     align-items: center;
@@ -98,7 +97,7 @@ nav {
 }
 
 .separation {
-    border-bottom: 2px solid rgb(144, 192, 93);
+    border-bottom: 2px solid rgb(60, 47, 38);
     width: 400px;
     margin: 0 auto;
 }
@@ -129,7 +128,7 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid black;
+    border: 3px solid rgb(60, 47, 38);
 }
 
 .layout-image {
@@ -140,7 +139,7 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid black;
+    border: 3px solid rgb(60, 47, 38);
 }
 
 .traditional-image {
@@ -151,7 +150,7 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid black;
+    border: 3px solid rgb(60, 47, 38);
 }
 
 .character-image:hover,
@@ -163,13 +162,13 @@ nav {
 .character-link,
 .layout-link,
 .traditional-link {
-    color: black;
+    color: rgb(60, 47, 38);
 }
 
 .character-link:hover,
 .layout-link:hover,
 .traditional-link:hover {
-    color: rgb(144, 192, 93);
+    color: rgb(179, 236, 117);
     text-decoration: none;
 }
 
@@ -188,7 +187,7 @@ nav {
     height: auto;
     margin-top: 25px;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid rgb(60, 47, 38);
 }
 
 .about-writing-section {
@@ -219,7 +218,7 @@ nav {
 
 .contact-items a {
     margin: 20px 30px 0px 30px;
-    background: black;
+    background: rgb(60, 47, 38);
     border-radius: 5px;
 }
 
@@ -229,7 +228,7 @@ nav {
 }
 
 .icon:hover {
-    background: rgb(144, 192, 93);
+    background: rgb(179, 236, 117);
 }
 
 .icon:active {
@@ -291,8 +290,8 @@ nav {
 .gallery-title {
     font-family: 'Oregano', cursive;
     font-size: 70px;
-    color: rgb(144, 192, 93);
-    text-shadow: 2px 2px rgb(243, 221, 174);
+    color: rgb(179, 236, 117);
+    text-shadow: 2px 2px rgb(60, 47, 38);
     display: flex;
     align-items: center;
     justify-content: center;
