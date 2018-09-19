@@ -285,6 +285,7 @@ nav {
 }
 
 .gallery-title {
+    margin-top: 70px;
     font-family: 'Oregano', cursive;
     font-size: 70px;
     color: rgb(179, 236, 117);
