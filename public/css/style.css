@@ -1,3 +1,5 @@
+/* Home Page */
+
 body {
     background-image: url(../images/leaf-pattern.png);
     background-attachment: fixed;
@@ -7,6 +9,10 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
 }
 
 #navbar {
@@ -66,7 +72,7 @@ nav {
 }
 
 .banner-title:hover {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .divider {
@@ -151,7 +157,7 @@ nav {
 .character-image:hover,
 .layout-image:hover,
 .traditional-image:hover {
-   opacity: 0.7;
+    opacity: 0.7;
 }
 
 .character-link,
@@ -240,7 +246,7 @@ nav {
 }
 
 
-/* Media Queries */
+/* Home Page Media Queries */
 
 @media only screen and (max-width: 1200px) {
     .gallery-link {
@@ -264,4 +270,36 @@ nav {
     .separation {
         width: 200px;
     }
+}
+
+/* ======================================================== */
+
+/* Gallery Pages */
+
+
+#char {
+    background-image: url(../images/leaf-pattern2.png) !important;
+}
+
+.gallery-container {
+    margin: 0 300px;
+    padding: 30px;
+    background: rgb(243, 221, 174);
+    border-radius: 20px;
+}
+
+.gallery-title {
+    font-family: 'Oregano', cursive;
+    font-size: 70px;
+    color: rgb(144, 192, 93);
+    text-shadow: 2px 2px rgb(243, 221, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 300px;
+    height: auto;
+    padding: 20px;
 }

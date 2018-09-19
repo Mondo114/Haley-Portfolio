@@ -40,7 +40,7 @@
 
 </head>
 
-<body class="site">
+<body class="site" id="char">
 
     <!-- Navbar -->
     <nav class="navbar justify-content-center" id="navbar">
@@ -49,10 +49,10 @@
                 <div class="nav-link">Home</div>
             </li>
             <li id="gallery-nav">
-                <div class="nav-link">Gallery</div>
+                <a class="nav-link" href="http://www.antlersandacorns.com/#gallery-connect">Gallery</a>
             </li>
             <li id="about-nav">
-                <div class="nav-link">About</div>
+                <a class="nav-link" href="http://www.antlersandacorns.com/#about-connect">About</a>
             </li>
             <li id="contact-nav">
                 <div class="nav-link">Contact</div>
@@ -60,50 +60,81 @@
         </ul>
     </nav>
 
-    <header class="jumbotron jumbotron-fluid" id="home-connect">
-        <div class="container">
-            <p class="banner-title">Haley Johnson</p>
-
-        </div>
-    </header>
-
     <div class="divider">
     </div>
 
     <div class="site-content">
 
-        <div class="space">
-        </div>
+        <header>
 
-        <div class="contact-section" id="contact-connect">
-            <div class="contact-items">
-                <a class="icon" href="mailto:hmireillej@gmail.com" target="_blank">
-                    <img src=./public/images/email.png alt="Email Icon">
-                </a>
-                <a class="icon" href="https://drive.google.com/file/d/1jBRdp3fhh9kZt53u2328zSUjtDCQWeFH/view?ts=5b5fbb7d"
-                    target="_blank">
-                    <img src=./public/images/resume.png alt="Resume Icon">
-                </a>
-                <a class="icon" href="https://www.instagram.com/antlerandacorn/" target="_blank">
-                    <img src=./public/images/instagram.png alt="Instagram Icon">
-                </a>
-                <a class="icon" href="https://www.linkedin.com/in/haley-johnson-346251b3/" target="_blank">
-                    <img src=./public/images/linkedin.png alt="LinkedIn Icon">
-                </a>
-                <a class="icon" href="http://antlerandacorn.tumblr.com/" target="_blank">
-                    <img src=./public/images/tumblr.png alt="Tumblr Icon">
-                </a>
-                <a class="icon" href="https://vimeo.com/hmireillej" target="_blank">
-                    <img src=./public/images/vimeo.png alt="Vimeo Icon">
-                </a>
+            <p class="gallery-title">Character Gallery</p>
+
+            <div class="gallery-container">
+
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
+                    </div>
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/dnd-billweb.jpg" alt="DND Bill">
+                    </div>
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/dnd-gregdragonbornweb.jpg" alt="DND Greg Dragonborn">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/dnd-snarfweb.jpg" alt="DND Snarf">
+                    </div>
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/dndgretchen-web.jpg" alt="DND Gretchen">
+                    </div>
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/owlschoolnewslogo-tabloid.jpg" alt="Old School News Logo Tabloid">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="gallery-image" src="./public/images/character/sawwhetowl-web.jpg" alt="Saw-Whet Owl">
+                    </div>
+                </div>
+
             </div>
-            <div class="footer">
-                © 2018 Copyright Haley Johnson
-            </div>
+        </header>
+
+        <div class="space">
         </div>
 
     </div>
 
+    <div class="contact-section" id="contact-connect">
+        <div class="contact-items">
+            <a class="icon" href="mailto:hmireillej@gmail.com" target="_blank">
+                <img src=./public/images/email.png alt="Email Icon">
+            </a>
+            <a class="icon" href="https://drive.google.com/file/d/1jBRdp3fhh9kZt53u2328zSUjtDCQWeFH/view?ts=5b5fbb7d"
+                target="_blank">
+                <img src=./public/images/resume.png alt="Resume Icon">
+            </a>
+            <a class="icon" href="https://www.instagram.com/antlerandacorn/" target="_blank">
+                <img src=./public/images/instagram.png alt="Instagram Icon">
+            </a>
+            <a class="icon" href="https://www.linkedin.com/in/haley-johnson-346251b3/" target="_blank">
+                <img src=./public/images/linkedin.png alt="LinkedIn Icon">
+            </a>
+            <a class="icon" href="http://antlerandacorn.tumblr.com/" target="_blank">
+                <img src=./public/images/tumblr.png alt="Tumblr Icon">
+            </a>
+            <a class="icon" href="https://vimeo.com/hmireillej" target="_blank">
+                <img src=./public/images/vimeo.png alt="Vimeo Icon">
+            </a>
+        </div>
+        <div class="footer">
+            © 2018 Copyright Haley Johnson
+        </div>
+    </div>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
