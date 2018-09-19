@@ -241,6 +241,8 @@ nav {
 }
 
 
+/* ======================================================== */
+
 /* Home Page Media Queries */
 
 @media only screen and (max-width: 1200px) {
@@ -267,18 +269,17 @@ nav {
     }
 }
 
+
 /* ======================================================== */
 
 /* Gallery Pages */
-
 
 #char {
     background-image: url(../images/leaf-pattern2.png) !important;
 }
 
 .gallery-container {
-    margin: 0 300px;
-    padding: 30px;
+    padding: 20px;
     background: rgb(243, 221, 174);
     border-radius: 20px;
 }
@@ -293,6 +294,10 @@ nav {
     justify-content: center;
 }
 
+.image-column {
+    text-align: center;
+}
+
 .gallery-image {
     width: 300px;
     height: auto;
@@ -300,3 +305,9 @@ nav {
     border-radius: 10px;
     border: 3px solid rgb(60, 47, 38);
 }
+
+
+
+/* ======================================================== */
+
+/* Gallery Pages Media Queries */

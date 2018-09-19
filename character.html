@@ -40,6 +40,8 @@
 
 </head>
 
+<!-- Body -->
+
 <body class="site" id="char">
 
     <!-- Navbar -->
@@ -60,43 +62,29 @@
         </ul>
     </nav>
 
-    <div class="divider">
-    </div>
-
+    <!-- Website Content -->
     <div class="site-content">
 
+        <!-- Gallery -->
         <header>
-
             <p class="gallery-title">Character Gallery</p>
 
-            <div class="gallery-container">
+            <div class="container gallery-container">
 
                 <div class="row">
-                    <div class="col-sm">
-                        <img class="gallery-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
-                    </div>
-                    <div class="col-sm">
+                    <div class="col-sm image-column">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img class="gallery-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
+                        </button>
                         <img class="gallery-image" src="./public/images/character/dnd-billweb.jpg" alt="DND Bill">
-                    </div>
-                    <div class="col-sm">
                         <img class="gallery-image" src="./public/images/character/dnd-gregdragonbornweb.jpg" alt="DND Greg Dragonborn">
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm image-column">
                         <img class="gallery-image" src="./public/images/character/dnd-snarfweb.jpg" alt="DND Snarf">
-                    </div>
-                    <div class="col-sm">
                         <img class="gallery-image" src="./public/images/character/dndgretchen-web.jpg" alt="DND Gretchen">
-                    </div>
-                    <div class="col-sm">
                         <img class="gallery-image" src="./public/images/character/owlschoolnewslogo-tabloid.jpg" alt="Old School News Logo Tabloid">
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm image-column">
                         <img class="gallery-image" src="./public/images/character/sawwhetowl-web.jpg" alt="Saw-Whet Owl">
                     </div>
                 </div>
@@ -104,11 +92,30 @@
             </div>
         </header>
 
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="image" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="image">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Space -->
         <div class="space">
         </div>
 
     </div>
 
+    <!-- Content Section -->
     <div class="contact-section" id="contact-connect">
         <div class="contact-items">
             <a class="icon" href="mailto:hmireillej@gmail.com" target="_blank">
@@ -131,9 +138,12 @@
                 <img src=./public/images/vimeo.png alt="Vimeo Icon">
             </a>
         </div>
-        <div class="footer">
+
+        <!-- Footer -->
+        <footer class="footer">
             © 2018 Copyright Haley Johnson
-        </div>
+        </footer>
+
     </div>
 
     <!--JQuery-->
