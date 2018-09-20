@@ -70,6 +70,19 @@ nav {
     justify-content: center;
 }
 
+.frog-section {
+    position: absolute;
+    bottom: 180px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.dancing-frog {
+    width: 300px;
+    height: auto;
+}
+
 .divider {
     background: linear-gradient(rgb(202, 168, 122), rgb(160, 115, 87), rgb(74, 60, 51));
     height: 60px;
