@@ -72,7 +72,7 @@ nav {
 
 .frog-section {
     position: absolute;
-    bottom: 180px;
+    bottom: 220px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
