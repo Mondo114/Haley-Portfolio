@@ -313,12 +313,6 @@ nav {
     background-image: url(../images/leaf-pattern2.png) !important;
 }
 
-.gallery-container {
-    padding: 20px;
-    background: rgb(243, 221, 174);
-    border-radius: 20px;
-}
-
 .gallery-title {
     margin-top: 70px;
     font-family: 'Oregano', cursive;
@@ -330,12 +324,20 @@ nav {
     justify-content: center;
 }
 
+.gallery-container {
+    padding: 20px;
+    background: rgb(243, 221, 174);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .image-column {
     text-align: center;
 }
 
 .gallery-image {
     width: 300px;
+    max-width: 100%;
     height: auto;
     margin: 20px;
     border-radius: 10px;
@@ -361,6 +363,10 @@ nav {
     transform: scale(1);
 }
 
+.modal-content {
+    width: 900px;
+}
+
 .modal-header {
     background: black;
     border-bottom: none;
@@ -382,6 +388,11 @@ nav {
 
 .close:active {
     color: rgb(148, 196, 98) !important;
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari */
+    transform: scale(0.9);
 }
 
 .modal-body {
@@ -390,43 +401,55 @@ nav {
     background: black;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-    position: relative;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    margin: 0px 0px 0 -16px;
-    /* margin-top: -50px; */
-    color: rgb(243, 221, 174);
-    font-weight: bold;
-    font-size: 90px;
-    /* border-radius: 0 3px 3px 0; */
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-.prev:hover,
-.next:hover {
-    color: rgb(148, 196, 98);
-    text-decoration: none;
-}
-
 .modal-image {
     width: 90%;
     height: auto;
     margin: 20px;
+}
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#show-previous-image {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    color: rgb(243, 221, 174);
+    font-weight: bold;
+    font-size: 90px;
+    background: none;
+    border: none;
+    z-index: 999;
+}
+
+#show-next-image {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    color: rgb(243, 221, 174);
+    font-weight: bold;
+    font-size: 90px;
+    background: none;
+    border: none;
+    z-index: 999;
+}
+
+#show-previous-image:hover, #show-next-image:hover {
+    color: rgb(148, 196, 98);
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
