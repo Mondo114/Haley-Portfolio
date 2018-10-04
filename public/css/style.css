@@ -417,7 +417,7 @@ button:active {
 
 #show-previous-image {
     position: absolute;
-    top: 40%;
+    top: 400px;
     left: 1%;
     color: rgb(243, 221, 174);
     font-weight: bold;
@@ -429,7 +429,7 @@ button:active {
 
 #show-next-image {
     position: absolute;
-    top: 40%;
+    top: 400px;
     right: 1%;
     color: rgb(243, 221, 174);
     font-weight: bold;
