@@ -39,7 +39,7 @@ nav {
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(179, 236, 117);
+    color: rgb(148, 196, 98);
 }
 
 /* .nav-icon {
@@ -57,26 +57,36 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .banner-title {
     font-family: 'Oregano', cursive;
     font-style: italic;
     font-size: 110px;
-    color: rgb(60, 47, 38);
-    text-shadow: 2px 2px rgb(243, 221, 174);
+    color: black;
+    /* text-shadow: 2px 2px rgb(148, 196, 98); */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 80px;
 }
 
-.frog-section {
+.banner-subtitle {
+    font-family: 'Oregano', cursive;
+    /* font-style: italic; */
+    font-size: 40px;
+    color: black;
+    /* text-shadow: 1px 1px rgb(148, 196, 98); */
+}
+
+/* .frog-section {
     position: absolute;
     top: 610px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-}
+} */
 
 .dancing-frog {
     width: 300px;
@@ -86,6 +96,7 @@ nav {
 .divider {
     background: linear-gradient(rgb(202, 168, 122), rgb(160, 115, 87), rgb(74, 60, 51));
     height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sticky {
@@ -115,6 +126,7 @@ nav {
     min-height: 400px;
     background-color: rgb(243, 221, 174);
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery-links {
@@ -137,7 +149,7 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid rgb(60, 47, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .layout-image {
@@ -148,7 +160,7 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid rgb(60, 47, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .traditional-image {
@@ -159,26 +171,35 @@ nav {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid rgb(60, 47, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .character-image:hover,
 .layout-image:hover,
 .traditional-image:hover {
-    opacity: 0.7;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
+    -ms-transform: scale(1.01);
+    /* IE 9 */
+    -webkit-transform: scale(1.01);
+    /* Safari */
+    transform: scale(1.01);
+}
+
+.character-image:active,
+.layout-image:active,
+.traditional-image:active {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari */
+    transform: scale(1);
 }
 
 .character-link,
 .layout-link,
 .traditional-link {
     color: rgb(60, 47, 38);
-}
-
-.character-link:hover,
-.layout-link:hover,
-.traditional-link:hover {
-    color: rgb(179, 236, 117);
-    text-decoration: none;
 }
 
 .space {
@@ -189,6 +210,7 @@ nav {
     min-height: 400px;
     background-color: rgb(243, 221, 174);
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .haley-cartoon {
@@ -196,7 +218,7 @@ nav {
     height: auto;
     margin-top: 25px;
     border-radius: 10px;
-    border: 3px solid rgb(60, 47, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-writing-section {
@@ -237,7 +259,7 @@ nav {
 }
 
 .icon:hover {
-    background: rgb(179, 236, 117);
+    background: rgb(148, 196, 98);
 }
 
 .icon:active {
@@ -301,7 +323,7 @@ nav {
     margin-top: 70px;
     font-family: 'Oregano', cursive;
     font-size: 70px;
-    color: rgb(179, 236, 117);
+    color: rgb(148, 196, 98);
     text-shadow: 2px 2px rgb(60, 47, 38);
     display: flex;
     align-items: center;
@@ -317,12 +339,26 @@ nav {
     height: auto;
     margin: 20px;
     border-radius: 10px;
-    border: 3px solid rgb(60, 47, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
 
 .gallery-image:hover {
-    opacity: 0.7;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
+    -ms-transform: scale(1.01);
+    /* IE 9 */
+    -webkit-transform: scale(1.01);
+    /* Safari */
+    transform: scale(1.01);
+}
+
+.gallery-image:active {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari */
+    transform: scale(1);
 }
 
 .modal-header {
@@ -341,17 +377,50 @@ nav {
 }
 
 .close:hover {
-    color: rgb(179, 236, 117) !important;
+    color: rgb(148, 196, 98) !important;
 }
 
 .close:active {
-    color: rgb(179, 236, 117) !important;
+    color: rgb(148, 196, 98) !important;
 }
 
 .modal-body {
     text-align: center;
     padding-bottom: 73px;
     background: black;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin: 0px 0px 0 -16px;
+    /* margin-top: -50px; */
+    color: rgb(243, 221, 174);
+    font-weight: bold;
+    font-size: 90px;
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+    color: rgb(148, 196, 98);
+    text-decoration: none;
 }
 
 .modal-image {
