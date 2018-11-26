@@ -40,7 +40,9 @@
 
 </head>
 
-<body class="site">
+<!-- Body -->
+
+<body class="site" id="char">
 
     <!-- Navbar -->
     <nav class="navbar justify-content-center" id="navbar">
@@ -49,10 +51,10 @@
                 <div class="nav-link">Home</div>
             </li>
             <li id="gallery-nav">
-                <div class="nav-link">Gallery</div>
+                <a class="nav-link" href="http://www.antlersandacorns.com/#gallery-connect">Galleries</a>
             </li>
             <li id="about-nav">
-                <div class="nav-link">About</div>
+                <a class="nav-link" href="http://www.antlersandacorns.com/#about-connect">About</a>
             </li>
             <li id="contact-nav">
                 <div class="nav-link">Contact</div>
@@ -60,50 +62,180 @@
         </ul>
     </nav>
 
-    <header class="jumbotron jumbotron-fluid" id="home-connect">
-        <div class="container">
-            <p class="banner-title">Haley Johnson</p>
-
-        </div>
-    </header>
-
-    <div class="divider">
-    </div>
-
+    <!-- Website Content -->
     <div class="site-content">
 
+        <!-- Gallery -->
+        <header>
+            <p class="gallery-title">Layout Gallery</p>
+
+            <div class="container gallery-container">
+
+                <div class="row">
+                    <div class="col-sm image-column">
+
+                        <!-- <div data-toggle="modal" data-target="#dia-de-los-muertosfinal">
+                            <img class="gallery-image" src="./public/images/character/dia-de-los-muertosfinal.jpg"
+                                onclick="currentSlide(1)" alt="Dia de los Muetos">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/dia-de-los-muertosfinal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
+                        </a>
+
+                        <!-- <div data-toggle="modal" data-target="#dnd-billweb">
+                            <img class="gallery-image" src="./public/images/character/dnd-billweb.jpg" onclick="currentSlide(2)"
+                                alt="DND Bill">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/dnd-billweb.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/dnd-billweb.jpg" alt="DND Bill">
+                        </a>
+
+                    </div>
+                    <div class="col-sm image-column">
+                        <!-- <div data-toggle="modal" data-target="#dnd-gregdragonbornweb">
+                            <img class="gallery-image" src="./public/images/character/dnd-gregdragonbornweb.jpg"
+                                onclick="currentSlide(3)" alt="DND Greg Dragonborn">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/dnd-gregdragonbornweb.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/dnd-gregdragonbornweb.jpg" alt="DND Greg Dragonborn">
+                        </a>
+
+                        <!-- <div data-toggle="modal" data-target="#dnd-snarfweb">
+                            <img class="gallery-image" src="./public/images/character/dnd-snarfweb.jpg" onclick="currentSlide(4)"
+                                alt="DND Snarf">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/dnd-snarfweb.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/dnd-snarfweb.jpg" alt="DND Snarf">
+                        </a>
+
+                        <!-- <div data-toggle="modal" data-target="#dndgretchen-web">
+                            <img class="gallery-image" src="./public/images/character/dndgretchen-web.jpg" onclick="currentSlide(5)"
+                                alt="DND Gretchen">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/dndgretchen-web.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/dndgretchen-web.jpg" alt="DND Gretchen">
+                        </a>
+
+                    </div>
+                    <div class="col-sm image-column">
+                        <!-- <div data-toggle="modal" data-target="#owlschoolnewslogo-tabloid">
+                            <img class="gallery-image" src="./public/images/character/owlschoolnewslogo-tabloid.jpg"
+                                onclick="currentSlide(6)" alt="Old School News Logo Tabloid">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/owlschoolnewslogo-tabloid.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/owlschoolnewslogo-tabloid.jpg"
+                                alt="Old School News Logo Tabloid">
+                        </a>
+
+                        <!-- <div data-toggle="modal" data-target="#sawwhetowl-web">
+                            <img class="gallery-image" src="./public/images/character/sawwhetowl-web.jpg" onclick="currentSlide(7)"
+                                alt="Saw-Whet Owl">
+                        </div> -->
+
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="./public/images/character/sawwhetowl-web.jpg"
+                            data-target="#image-gallery">
+                            <img class="gallery-image" src="./public/images/character/sawwhetowl-web.jpg" alt="Saw-Whet Owl">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!-- Image Modals -->
+
+        <!-- dia-de-los-muertosfinal -->
+        <!-- <div class="modal fade" id="dia-de-los-muertosfinal" tabindex="-1" role="image" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="image">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mySlides">
+                        <a href="#" class="prev round" onclick="plusSlides(-1)">&#8249;</a>
+                        <img class="modal-image" src="./public/images/character/dia-de-los-muertosfinal.jpg" alt="Dia de los Muetos">
+                        <a href="#" class="next round" onclick="plusSlides(1)">&#8250;</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="image-gallery-title"></h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span
+                                class="sr-only"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn float-left" id="show-previous-image">
+                            &#8249;
+                        </button>
+                        <img class="modal-image" id="image-gallery-image" class="img-responsive col-md-12" src="">
+                        <button type="button" class="btn float-right" id="show-next-image">
+                            &#8250;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Space -->
         <div class="space">
         </div>
 
-        <div class="contact-section" id="contact-connect">
-            <div class="contact-items">
-                <a class="icon" href="mailto:hmireillej@gmail.com" target="_blank">
-                    <img src=./public/images/email.png alt="Email Icon">
-                </a>
-                <a class="icon" href="https://drive.google.com/file/d/1jBRdp3fhh9kZt53u2328zSUjtDCQWeFH/view?ts=5b5fbb7d"
-                    target="_blank">
-                    <img src=./public/images/resume.png alt="Resume Icon">
-                </a>
-                <a class="icon" href="https://www.instagram.com/antlerandacorn/" target="_blank">
-                    <img src=./public/images/instagram.png alt="Instagram Icon">
-                </a>
-                <a class="icon" href="https://www.linkedin.com/in/haley-johnson-346251b3/" target="_blank">
-                    <img src=./public/images/linkedin.png alt="LinkedIn Icon">
-                </a>
-                <a class="icon" href="http://antlerandacorn.tumblr.com/" target="_blank">
-                    <img src=./public/images/tumblr.png alt="Tumblr Icon">
-                </a>
-                <a class="icon" href="https://vimeo.com/hmireillej" target="_blank">
-                    <img src=./public/images/vimeo.png alt="Vimeo Icon">
-                </a>
-            </div>
-            <div class="footer">
-                © 2018 Copyright Haley Johnson
-            </div>
-        </div>
-
     </div>
 
+    <!-- Content Section -->
+    <div class="contact-section" id="contact-connect">
+        <div class="contact-items">
+            <a class="icon" href="mailto:hmireillej@gmail.com" target="_blank">
+                <img src=./public/images/email.png alt="Email Icon">
+            </a>
+            <a class="icon" href="https://drive.google.com/file/d/1jBRdp3fhh9kZt53u2328zSUjtDCQWeFH/view?ts=5b5fbb7d"
+                target="_blank">
+                <img src=./public/images/resume.png alt="Resume Icon">
+            </a>
+            <a class="icon" href="https://www.linkedin.com/in/haley-johnson-346251b3/" target="_blank">
+                <img src=./public/images/linkedin.png alt="LinkedIn Icon">
+            </a>
+            <a class="icon" href="https://www.instagram.com/antlerandacorn/" target="_blank">
+                <img src=./public/images/instagram.png alt="Instagram Icon">
+            </a>
+            <a class="icon" href="http://antlerandacorn.tumblr.com/" target="_blank">
+                <img src=./public/images/tumblr.png alt="Tumblr Icon">
+            </a>
+            <a class="icon" href="https://vimeo.com/hmireillej" target="_blank">
+                <img src=./public/images/vimeo.png alt="Vimeo Icon">
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            © 2018 Copyright Haley Johnson
+        </footer>
+
+    </div>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

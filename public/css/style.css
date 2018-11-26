@@ -22,6 +22,10 @@ body {
     height: 60px;
     z-index: 999;
     transition: top 0.3s;
+    background-image: url(../images/log3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -80,23 +84,30 @@ nav {
     /* text-shadow: 1px 1px rgb(148, 196, 98); */
 }
 
-/* .frog-section {
+.frog-section {
     position: absolute;
     top: 610px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-} */
+}
 
 .dancing-frog {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
 .divider {
-    background: linear-gradient(rgb(202, 168, 122), rgb(160, 115, 87), rgb(74, 60, 51));
-    height: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgb(22, 21, 19);
+    height: 50px;
+}
+
+#log-divider {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -72px;
 }
 
 .sticky {
@@ -202,8 +213,12 @@ nav {
     color: rgb(60, 47, 38);
 }
 
+.space-top {
+    height: 280px;
+}
+
 .space {
-    height: 100px;
+    height: 200px;
 }
 
 .about-section {
