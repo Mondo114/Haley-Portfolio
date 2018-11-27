@@ -87,14 +87,14 @@ nav {
 
 .frog-section {
     position: absolute;
-    top: 560px;
+    top: 600px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
 .dancing-frog {
-    width: 500px;
+    width: 350px;
     height: auto;
 }
 
@@ -487,7 +487,14 @@ button:active {
 
 #image-gallery .modal-footer {
     display: block;
-    padding-right: 84px !important;
+}
+
+.character-modal {
+    padding-right: 100px !important;
+}
+
+.traditional-modal {
+    padding-right: 100px !important;
 }
 
 .thumb {
