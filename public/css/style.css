@@ -22,10 +22,11 @@ body {
     height: 60px;
     z-index: 999;
     transition: top 0.3s;
-    background-image: url(../images/log3.png);
+    background-image: url(../images/log-navbar.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav {
@@ -214,7 +215,7 @@ nav {
 }
 
 .space-top {
-    height: 280px;
+    height: 260px;
 }
 
 .space {
@@ -382,6 +383,12 @@ nav {
     width: 900px;
 }
 
+.modal-content-layout {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+
 .modal-header {
     background: black;
     border-bottom: none;
@@ -402,6 +409,15 @@ nav {
 }
 
 .close:active {
+    color: rgb(148, 196, 98) !important;
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari */
+    transform: scale(0.9);
+}
+
+.close:focus {
     color: rgb(148, 196, 98) !important;
     -ms-transform: scale(0.9);
     /* IE 9 */
@@ -458,6 +474,15 @@ button:active {
     color: rgb(148, 196, 98);
 }
 
+#show-previous-image:active, #show-next-image:active {
+    color: rgb(148, 196, 98);
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari */
+    transform: scale(0.9);
+}
+
 #image-gallery .modal-footer {
     display: block;
 }
@@ -472,3 +497,9 @@ button:active {
 /* ======================================================== */
 
 /* Gallery Pages Media Queries */
+
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 1500px;
+    }
+}
