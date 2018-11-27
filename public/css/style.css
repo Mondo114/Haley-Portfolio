@@ -87,7 +87,7 @@ nav {
 
 .frog-section {
     position: absolute;
-    top: 610px;
+    top: 560px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -487,6 +487,7 @@ button:active {
 
 #image-gallery .modal-footer {
     display: block;
+    padding-right: 84px !important;
 }
 
 .thumb {
