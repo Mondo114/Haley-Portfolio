@@ -25,7 +25,7 @@ body {
     background-image: url(../images/log-navbar.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 160px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -35,8 +35,7 @@ nav {
 }
 
 .nav-link {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0px 30px 6px 30px;
     font-family: 'Oregano', cursive;
     font-size: 24px;
     color: rgb(243, 221, 174);
@@ -93,7 +92,7 @@ nav {
 
 .divider {
     background: rgb(22, 21, 19);
-    height: 50px;
+    height: 0px;
 }
 
 #log-divider {
@@ -208,7 +207,7 @@ nav {
 }
 
 .space-top {
-    height: 260px;
+    height: 300px;
 }
 
 .space {
@@ -291,13 +290,33 @@ nav {
 
 /* Home Page Media Queries */
 
+@media only screen and (max-width: 1500px) {
+    .space-top {
+        height: 200px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .gallery-link {
-        margin: 50px 50px 0px 50px;
+        margin: 50px 30px 0px 30px;
     }
 
     .contact-items a {
         margin: 20px 20px 0px 20px;
+    }
+
+    .about-paragraph {
+        width: 120%;
+        padding: 20px 20px 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .space-top {
+        height: 180px;
+    }
+    #log-divider {
+        min-height: 140px;
     }
 }
 
@@ -380,8 +399,6 @@ nav {
 
 .modal-content-layout {
     width: 1500px;
-    display: flex;
-    justify-content: center;
 }
 
 .modal-header {
@@ -465,11 +482,13 @@ button:active {
     z-index: 999;
 }
 
-#show-previous-image:hover, #show-next-image:hover {
+#show-previous-image:hover,
+#show-next-image:hover {
     color: rgb(148, 196, 98);
 }
 
-#show-previous-image:active, #show-next-image:active {
+#show-previous-image:active,
+#show-next-image:active {
     color: rgb(148, 196, 98);
     -ms-transform: scale(0.9);
     /* IE 9 */
@@ -501,8 +520,26 @@ button:active {
 
 /* Gallery Pages Media Queries */
 
-@media (min-width: 992px) {
+@media (max-width: 1024px) {
+    .gallery-image {
+        max-width: 88%;
+    }
+}
+
+@media (min-width: 1600px) {
     .layout-modal {
         max-width: 1500px;
     }
 }
+
+@media (max-width: 1600px) {
+    .modal-content-layout {
+        width: 900px;
+    }
+    .layout-modal {
+        padding-right: 100px !important;
+    }
+}
+
+
+
