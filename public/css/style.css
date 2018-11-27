@@ -47,11 +47,6 @@ nav {
     color: rgb(148, 196, 98);
 }
 
-/* .nav-icon {
-    height: 100px;
-    width: 100px;
-} */
-
 .jumbotron {
     margin-bottom: 0;
     background-image: url("../images/banner.jpg");
@@ -70,19 +65,17 @@ nav {
     font-style: italic;
     font-size: 110px;
     color: black;
-    /* text-shadow: 2px 2px rgb(148, 196, 98); */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: -170px;
 }
 
 .banner-subtitle {
     font-family: 'Oregano', cursive;
-    /* font-style: italic; */
     font-size: 40px;
     color: black;
-    /* text-shadow: 1px 1px rgb(148, 196, 98); */
+    margin-top: 40px;
 }
 
 .frog-section {
