@@ -501,7 +501,7 @@ button:active {
 /* Gallery Pages Media Queries */
 
 @media (min-width: 992px) {
-    .modal-lg {
+    .layout-modal {
         max-width: 1500px;
     }
 }
