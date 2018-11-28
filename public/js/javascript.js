@@ -139,6 +139,3 @@ $(document).ready(function () {
     }
 
 });
-
-
-// $(".image-gallery").removeAttr('class', 'image-gallery', 'class', 'modal', 'class', 'fade', 'class', 'character-modal');
