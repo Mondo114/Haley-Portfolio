@@ -129,15 +129,16 @@ $(document).ready(function () {
         });
 
     var windowWidth = $(window).width();
-     
-    if(windowWidth < 768){
-    //Means the screen is mobile add a class
-    $(".image-gallery").removeAttr('class', 'image-gallery');
-    }
-     
-    else{
-    //Means screen is desktop or tablet
-    $(".image-gallery").attr('image-gallery');
+
+    if (windowWidth < 768) {
+        //Means the screen is mobile add a class
+        $(".image-gallery").removeAttr('class', 'image-gallery');
+    } else {
+        //Means screen is desktop or tablet
+        $(".image-gallery").attr('image-gallery');
     }
 
 });
+
+
+// $(".image-gallery").removeAttr('class', 'image-gallery', 'class', 'modal', 'class', 'fade', 'class', 'character-modal');

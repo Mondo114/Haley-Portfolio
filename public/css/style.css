@@ -718,6 +718,10 @@ button:active {
         top: 180px;
         right: 0%;
     }
+
+    .full-modal {
+        display: none;
+    }
 }
 
 @media (max-width: 650px) {
