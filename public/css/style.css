@@ -564,6 +564,7 @@ button:active {
 .image-gallery .modal-footer {
     display: block;
 }
+
 .character-modal {
     padding-right: 100px !important;
 }
@@ -659,12 +660,26 @@ button:active {
     }
 }
 
-@media (max-width: 767px) {
-    
-}
-
 @media (max-width: 650px) {
     .gallery-title {
         font-size: 60px;
+    }
+
+    .gallery-image:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -ms-transform: scale(1);
+        /* IE 9 */
+        -webkit-transform: scale(1);
+        /* Safari */
+        transform: scale(1);
+    }
+
+    .gallery-image:active {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -ms-transform: scale(1);
+        /* IE 9 */
+        -webkit-transform: scale(1);
+        /* Safari */
+        transform: scale(1);
     }
 }

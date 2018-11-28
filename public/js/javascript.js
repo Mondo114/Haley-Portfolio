@@ -128,18 +128,6 @@ $(document).ready(function () {
             e.preventDefault(); // prevent the default action (scroll / move caret)
         });
 
-    // $(window).on('resize', function () {
-    //     var win = $(this);
-    //     if (win.width() < 768) {
-
-    //         $('.image-gallery').removeClass('image-gallery');
-
-    //     } else {
-
-    //         $('.image-gallery').addClass('image-gallery');
-    //     }
-    // });
-
     var windowWidth = $(window).width();
      
     if(windowWidth < 768){
