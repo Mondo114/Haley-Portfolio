@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     $("#gallery-nav").on("click", function (event) {
         $('html,body').animate({
-            scrollTop: $("#gallery-connect").offset().top - 60
+            scrollTop: $(".gallery-section").offset().top - 60
         }, 'slow');
     });
 
