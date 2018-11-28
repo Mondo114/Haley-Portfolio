@@ -356,14 +356,10 @@ nav {
         background-attachment: scroll;
         background-size: 60%;
     }
-    
+
     .nav-link {
         margin: 0px 5px 6px 5px;
         font-size: 20px;
-    }
-
-    #navbar {
-        position: static;
     }
 
     .jumbotron {
