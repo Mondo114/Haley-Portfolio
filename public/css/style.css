@@ -290,6 +290,12 @@ nav {
 
 /* Home Page Media Queries */
 
+@media only screen and (max-width: 1700px) {
+    .jumbotron {
+        background-position: left;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .space-top {
         height: 200px;
@@ -321,17 +327,13 @@ nav {
     }
 }
 
-@media only screen and (max-width: 550px) {
-    .gallery-link {
-        margin: 50px 20px 0px 20px;
+@media only screen and (max-width: 900px) {
+    .banner-title {
+        color: white;
     }
-
-    .contact-items a {
-        margin: 20px 5px 0px 5px;
-    }
-
-    .separation {
-        width: 200px;
+    
+    .banner-subtitle {
+        color: white;
     }
 }
 
@@ -366,9 +368,13 @@ nav {
         position: static;
     }
 
+    .jumbotron {
+        height: 700px;
+    }
+
     .banner-title {
         font-size: 60px;
-        margin-top: -260px;
+        margin-top: -230px;
     }
 
     .banner-subtitle {
@@ -377,7 +383,11 @@ nav {
     }
 
     .frog-section {
-        top: 650px;
+        top: 540px;
+    }
+
+    .dancing-frog {
+        width: 300px;
     }
 
     .about-paragraph {
@@ -397,25 +407,58 @@ nav {
     .contact-items a {
         margin: 20px 10px 0px 10px;
     }
-    .dancing-frog {
-        width: 300px;
+}
+
+@media only screen and (max-width: 550px) {
+    .gallery-link {
+        margin: 50px 20px 0px 20px;
     }
-    .frog-section {
-        top: 680px;
+
+    .contact-items a {
+        margin: 20px 5px 0px 5px;
+    }
+
+    .separation {
+        width: 200px;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
     .banner-title {
         font-size: 60px;
-        margin-top: -430px;
     }
 
+    #log-divider {
+        min-height: 110px;
+        top: -25px;
+    }
+}
+
+@media only screen and (max-width: 413px) {
     .nav-link {
         margin: 0px 0px 6px 0px;
         padding: 11px;
     }
+
+    .banner-title {
+        margin-top: -90px;
+    }
+
+    #log-divider {
+        min-height: 80px;
+    }
 }
+
+@media only screen and (max-width: 375px) {
+    .jumbotron {
+        height: 540px;
+    }
+
+    .frog-section {
+        top: 390px;
+    }
+}
+
 
 /* ======================================================== */
 
@@ -599,7 +642,6 @@ button:active {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
 
 
 /* ======================================================== */
