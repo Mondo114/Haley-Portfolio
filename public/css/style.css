@@ -298,6 +298,14 @@ nav {
         height: 735px;
     }
 
+    .banner-title {
+        margin-top: -150px;
+    }
+
+    .banner-subtitle {
+        margin-top: 20px;
+    }
+
     .frog-section {
         top: 510px;
     }
@@ -320,6 +328,10 @@ nav {
 @media only screen and (max-width: 1500px) {
     .jumbotron {
         height: 670px;
+    }
+
+    .banner-subtitle {
+        margin-top: 10px;
     }
 
     .frog-section {
@@ -384,13 +396,23 @@ nav {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .banner-title {
         color: white;
     }
     
     .banner-subtitle {
         color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-title {
+        font-size: 90px;
+    }
+    
+    .banner-subtitle {
+        font-size: 32px;
     }
 }
 
@@ -431,7 +453,7 @@ nav {
 
     .banner-title {
         font-size: 60px;
-        margin-top: -230px;
+        margin-top: -90px;
     }
 
     .banner-subtitle {
@@ -494,10 +516,6 @@ nav {
         margin: 0px 0px 6px 0px;
         padding: 11px;
     }
-
-    .banner-title {
-        margin-top: -90px;
-    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -506,7 +524,7 @@ nav {
     }
 
     .frog-section {
-        top: 390px;
+        top: 350px;
     }
 }
 
