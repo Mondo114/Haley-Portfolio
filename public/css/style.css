@@ -384,7 +384,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .banner-title {
         color: white;
     }
@@ -440,7 +440,7 @@ nav {
     }
 
     .frog-section {
-        top: 540px;
+        top: 510px;
     }
 
     .about-paragraph {
@@ -476,14 +476,16 @@ nav {
     }
 }
 
+
+@media only screen and (max-width: 450px) {
+    .frog-section {
+        top: 480px;
+    }
+}
+
 @media only screen and (max-width: 415px) {
     .banner-title {
         font-size: 60px;
-    }
-
-    #log-divider {
-        min-height: 110px;
-        top: -25px;
     }
 }
 
@@ -495,10 +497,6 @@ nav {
 
     .banner-title {
         margin-top: -90px;
-    }
-
-    #log-divider {
-        min-height: 80px;
     }
 }
 
