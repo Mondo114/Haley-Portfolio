@@ -465,6 +465,10 @@ nav {
         top: 510px;
     }
 
+    #log-divider {
+        min-height: 110px;
+    }
+
     .about-paragraph {
         width: 100%;
         padding: 20px 20px 10px 20px;
