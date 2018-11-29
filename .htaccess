@@ -1,4 +1,4 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^(www\.)?antlersandacorns\.com
-RewriteRule ^(.*)$ https://www.antlersandacorns.com.com/$1 [R,L]
+RewriteRule ^(.*)$ https://www.antlersandacorns.com/$1 [R,L]
