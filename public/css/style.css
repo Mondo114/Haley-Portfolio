@@ -150,6 +150,7 @@ nav {
 }
 
 .character-image {
+    background: white;
     width: 150px;
     height: 150px;
     background-image: url(../images/character/dia-de-los-muertosfinal.jpg);
