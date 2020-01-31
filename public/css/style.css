@@ -19,7 +19,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
+    height: 64px;
     z-index: 999;
     transition: top 0.3s;
     background-image: url(../images/log-navbar.png);
@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-link {
-    margin: 0px 30px 6px 30px;
+    margin: -4px 30px 6px 30px;
     font-family: 'Oregano', cursive;
     font-size: 24px;
     color: rgb(243, 221, 174);
@@ -133,7 +133,7 @@ nav {
 .gallery-section {
     min-height: 400px;
     background-color: rgb(243, 221, 174);
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -154,39 +154,52 @@ nav {
     width: 150px;
     height: 150px;
     background-image: url(../images/character/dia-de-los-muertosfinal.jpg);
-    border-radius: 10px;
+    border-radius: 6px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 .layout-image {
     width: 150px;
     height: 150px;
     background-image: url(../images/layout/visdevhw2-final.jpg);
-    border-radius: 10px;
+    border-radius: 6px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+.mushroom-image {
+    background: white;
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/mushroom/amanitamuscaria-web.jpg);
+    border-radius: 6px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 .traditional-image {
     width: 150px;
     height: 150px;
-    background-image: url(../images/traditional/mermanbook-pg2.jpg);
-    border-radius: 10px;
+    background-image: url(../images/traditional/darbyportrait-website.jpg);
+    border-radius: 6px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
 }
 
 .character-image:hover,
 .layout-image:hover,
+.mushroom-image:hover,
 .traditional-image:hover {
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 22px 0 rgba(0, 0, 0, 0);
     -ms-transform: scale(1.01);
     /* IE 9 */
     -webkit-transform: scale(1.01);
@@ -196,8 +209,9 @@ nav {
 
 .character-image:active,
 .layout-image:active,
+.mushroom-image:active,
 .traditional-image:active {
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: none;
     -ms-transform: scale(1);
     /* IE 9 */
     -webkit-transform: scale(1);
@@ -207,6 +221,7 @@ nav {
 
 .character-link,
 .layout-link,
+.mushroom-link,
 .traditional-link {
     color: rgb(60, 47, 38);
 }
@@ -222,7 +237,7 @@ nav {
 .about-section {
     min-height: 400px;
     background-color: rgb(243, 221, 174);
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -230,14 +245,14 @@ nav {
     width: 180px;
     height: auto;
     margin-top: 25px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .about-writing-section {
     display: flex;
     margin: 0 auto;
     width: 70%;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .about-paragraph {
@@ -248,10 +263,9 @@ nav {
 }
 
 .contact-section {
-    background: linear-gradient(rgb(202, 168, 122), rgb(160, 115, 87), rgb(74, 60, 51));
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 160px;
+    background: rgb(31, 25, 22);
+    height: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-items {
@@ -263,27 +277,43 @@ nav {
 
 .contact-items a {
     margin: 20px 30px 0px 30px;
-    background: rgb(60, 47, 38);
-    border-radius: 5px;
 }
 
 .contact-items img {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
 }
 
 .icon:hover {
-    background: rgb(148, 196, 98);
+    transform: scale(1.1, 1.1);
 }
 
 .icon:active {
     transform: scale(0.9, 0.9);
 }
 
+#contact-icons a {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 30px 0px 30px;
+    background: none;
+    color: rgb(243, 221, 174);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contact-icons a:hover {
+    color: rgb(148, 196, 98);
+    transform: scale(1, 1);
+}
+
+#contact-icons a:active {
+    color: rgb(148, 196, 98);
+    transform: scale(1, 1);
+}
+
 .footer {
     text-align: center;
-    margin-top: 60px;
-    padding: 4px;
+    margin-top: 90px;
     color: rgb(243, 221, 174);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -309,6 +339,10 @@ nav {
 
     .frog-section {
         top: 510px;
+    }
+
+    .gallery-link {
+        margin: 50px 30px 0px 30px;
     }
 }
 
@@ -360,6 +394,14 @@ nav {
     #log-divider {
         top: -50px;
     }
+
+    .character-image,
+    .layout-image,
+    .mushroom-image,
+    .traditional-image {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -369,10 +411,6 @@ nav {
 }
 
 @media only screen and (max-width: 1200px) {
-    .gallery-link {
-        margin: 50px 30px 0px 30px;
-    }
-
     .contact-items a {
         margin: 20px 20px 0px 20px;
     }
@@ -405,6 +443,10 @@ nav {
     .banner-subtitle {
         color: white;
     }
+
+    .gallery-link {
+        margin: 50px 20px 0px 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -415,11 +457,24 @@ nav {
     .banner-subtitle {
         font-size: 32px;
     }
+
+    .gallery-section {
+        min-height: 360px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
     .gallery-section {
         text-align: center;
+    }
+
+    .character-image,
+    .layout-image,
+    .mushroom-image,
+    .traditional-image {
+        width: 150px;
+        height: 150px;
     }
     
     .gallery-links {
@@ -427,7 +482,7 @@ nav {
     }
     
     .link-title-traditional {
-        padding-bottom: 20px;
+        padding-bottom: 60px;
     }
 }
 
@@ -483,19 +538,11 @@ nav {
     .about-left {
         text-align: center;
     }
-
-    .contact-items a {
-        margin: 20px 10px 0px 10px;
-    }
 }
 
 @media only screen and (max-width: 550px) {
     .gallery-link {
         margin: 50px 20px 0px 20px;
-    }
-
-    .contact-items a {
-        margin: 20px 5px 0px 5px;
     }
 
     .separation {
@@ -518,7 +565,7 @@ nav {
 
 @media only screen and (max-width: 413px) {
     .nav-link {
-        margin: 0px 0px 6px 0px;
+        margin: -4px 0px 6px 0px;
         padding: 11px;
     }
 }
@@ -530,6 +577,11 @@ nav {
 
     .frog-section {
         top: 350px;
+    }
+
+    
+    .contact-items a {
+        margin: 20px 14px 0px 14px;
     }
 }
 
@@ -543,20 +595,19 @@ nav {
 }
 
 .gallery-title {
-    margin-top: 70px;
+    margin-top: 100px;
     font-family: 'Oregano', cursive;
     font-size: 70px;
     color: rgb(148, 196, 98);
-    text-shadow: 2px 2px rgb(60, 47, 38);
+    text-shadow: 2px 2px rgb(31, 25, 22);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .gallery-container {
-    padding: 20px;
+    padding: 20px 20px 200px 20px;
     background: rgb(243, 221, 174);
-    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -569,13 +620,13 @@ nav {
     max-width: 100%;
     height: auto;
     margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
     cursor: pointer;
 }
 
 .gallery-image:hover {
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 22px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 22px 0 rgba(0, 0, 0, 0);
     -ms-transform: scale(1.01);
     /* IE 9 */
     -webkit-transform: scale(1.01);
@@ -584,7 +635,7 @@ nav {
 }
 
 .gallery-image:active {
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: none;
     -ms-transform: scale(1);
     /* IE 9 */
     -webkit-transform: scale(1);
@@ -594,6 +645,7 @@ nav {
 
 .modal-content {
     width: 900px;
+    border-radius: 1.3rem;
 }
 
 .modal-content-layout {
@@ -704,13 +756,18 @@ button:active {
     padding-right: 100px !important;
 }
 
+.layout-modal {
+    padding-right: 700px !important;
+}
+
+.mushroom-modal {
+    padding-right: 100px !important;
+}
+
 .traditional-modal {
     padding-right: 100px !important;
 }
 
-.layout-modal {
-    padding-right: 700px !important;
-}
 
 .thumb {
     margin-top: 15px;
@@ -795,6 +852,7 @@ button:active {
 @media (max-width: 650px) {
     .gallery-title {
         font-size: 60px;
+        margin-top: 60px;
     }
 
     .gallery-image {
